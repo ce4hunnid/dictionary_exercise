@@ -19,6 +19,4 @@ encrypted_text = open('encrypted_file.txt','w')
 for letter in read_infile:
     if letter in code:
         encrypted_text.write(code[letter])
-    else:
-        print('File encrypted.')
 encrypted_text.close()
